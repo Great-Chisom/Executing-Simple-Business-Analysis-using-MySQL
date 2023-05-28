@@ -18,33 +18,34 @@
   
       SELECT * FROM customers;
       
-        ![](IMAGE01N.jpg)  ![](IMAGE01N.jpg)
+   ![](IMAGE01N.jpg)
       
       SELECT * FROM order_items;
       
-        ![](IMAGE02N.jpg)
+   ![](IMAGE02N.jpg)
         
       SELECT * FROM order_statuses;
       
-        ![](IMAGE03N.jpg)
+   ![](IMAGE03N.jpg)
       
       SELECT * FROM orders;
-        ![](IMAGE04N.jpg)
+      
+   ![](IMAGE04N.jpg)
         
        SELECT * FROM products;
-        ![](IMAGE05N.jpg)
+   ![](IMAGE05N.jpg)
         
        SELECT * FROM shippers; 
-       ![](IMAGE06N.jpg)
+   ![](IMAGE06N.jpg)
        
        SELECT * FROM clients;
-        ![](IMAGE07N.jpg)
+   ![](IMAGE07N.jpg)
         
        SELECT * FROM payments;
-        ![](IMAGE08N.jpg)
+   ![](IMAGE08N.jpg)
         
         SELECT * FROM payment_methods;
-          ![](IMAGE09N.jpg)
+   ![](IMAGE09N.jpg)
           
 
 ## Case 1:
@@ -67,7 +68,7 @@
           WHERE points > 3000
           ORDER BY points DESC;
 
-        ![](IMAGE10N.jpg)
+   ![](IMAGE10N.jpg)
         
 
 ## Case 2:
@@ -79,7 +80,7 @@
             ORDER BY points DESC
             LIMIT 5;
 
-        ![](IMAGE11N.jpg)
+   ![](IMAGE11N.jpg)
         
 ## Case 3:
 
@@ -93,7 +94,7 @@
           JOIN order_statuses os
           ON o.status = os.order_status_id;
 
-          ![](IMAGE12N.jpg)
+   ![](IMAGE12N.jpg)
           
 ## Case 4:
 
@@ -107,7 +108,7 @@
           USING (product_id)
           ORDER BY total_price DESC;
 
-    ![](IMAGE13N.jpg)
+ ![](IMAGE13N.jpg)
     
 ## Case 5:
 
@@ -119,7 +120,7 @@
         LEFT JOIN order_items oi
         USING (product_id);
 
-     ![](IMAGE14N.jpg)
+  ![](IMAGE14N.jpg)
    
 ## Case 6:
 
@@ -137,7 +138,7 @@
         ON o.status = os.order_status_id
         ORDER BY c.customer_id;
 
-         ![](IMAGE15N.jpg)
+   ![](IMAGE15N.jpg)
          
     Hence, those entry with null, indicates such products have not been delivered yet.
     
@@ -162,7 +163,7 @@
         WHERE order_date BETWEEN ‘2016-12-31’ AND ‘2018-01-01’
         ORDER BY order_year;
   
-       ![](IMAGE16N.jpg)
+  ![](IMAGE16N.jpg)
        
 ## Case 8:
 
@@ -176,14 +177,14 @@
         JOIN payment_methods pm
         ON p.payment_method = pm.payment_method_id;
 
-       ![](IMAGE17N.jpg)
+  ![](IMAGE17N.jpg)
        
    This gives the payment date, payment amount and payment method for each customer.
    
   ** Appreciation:**
   Thank you for reading through, and feel free to drop a comment or suggestions.
   
-      ![](thank-you-message.jpeg)
+  ![](thank-you-message.jpeg)
 
 
 
