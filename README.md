@@ -181,7 +181,7 @@
        
    This gives the payment date, payment amount and payment method for each customer.
    
-  ** Appreciation: **
+  **Appreciation:**
   Thank you for reading through, and feel free to drop a comment or suggestions.
   
   ![](thank-you-message.jpeg)
