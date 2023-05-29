@@ -12,8 +12,7 @@
 		
       USE abzdb;
   
-  Next, we import tables from the link [here](ChisomProject2Tables.zip)
-  
+  Next, we import tables from the link [here](https://github.com/Great-Chisom/Executing-Simple-Business-Analysis-using-MySQL/blob/main/ChisomProject2Tables.zip)
   To view each table, we use the SELECT syntax against the name of each table
   
       SELECT * FROM customers;
