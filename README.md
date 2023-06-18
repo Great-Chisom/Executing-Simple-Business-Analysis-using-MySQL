@@ -69,7 +69,10 @@
           ORDER BY points DESC;
 
    ![](IMAGE10N.jpg)
-        
+   
+   ![](REPORT1.png)
+
+**_Remark:_** The Report above shows that the company has higher number of Bronze designated customers (which constitute 81.8% to the total number of customers), followed by Silver designated customers (which constitutes 12.7% to the total number of customers), and finally Gold designated customers (which constitute 5.4% to the total number of customers).
 
 ## Case 2:
 
@@ -121,7 +124,11 @@
         USING (product_id);
 
   ![](IMAGE14N.jpg)
-   
+  
+  ![](REPORT2.png)
+
+**_Remark:_** The Report above shows that the organization had Lettuce-Romaine Heart product as the highest demanded product, followed by Foam Dinner Plate product, and the least demanded product is Sweet Pea Spronts.
+  
 ## Case 6:
 
   Next, obtaining a record of products delivered to customers
